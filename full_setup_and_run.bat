@@ -21,8 +21,8 @@ pip install -r requirements.txt
 :: Step 4: Create .env file if not exists
 if not exist ".env" (
     echo Creating default .env file...
-    echo NEBIUS_API_KEY=eyJhbGciOiJIUzI1NiIsImtpZCI6IlV6SXJWd1h0dnprLVRvdzlLZWstc0M1akptWXBvX1VaVkxUZlpnMDRlOFUiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJnb29nbGUtb2F1dGgyfDExNTE3NDA1MzEwNDkyNDE1MTI2NSIsInNjb3BlIjoib3BlbmlkIG9mZmxpbmVfYWNjZXNzIiwiaXNzIjoiYXBpX2tleV9pc3N1ZXIiLCJhdWQiOlsiaHR0cHM6Ly9uZWJpdXMtaW5mZXJlbmNlLmV1LmF1dGgwLmNvbS9hcGkvdjIvIl0sImV4cCI6MTkwNDk4OTk0NCwidXVpZCI6ImE5YTIwNjlhLTM3ODktNDc3OC1iZGQ3LTg3MWVjMDA5YjRjOCIsIm5hbWUiOiJzYWh0YWJseSIsImV4cGlyZXNfYXQiOiIyMDMwLTA1LTE0VDExOjUyOjI0KzAwMDAifQ.v2v7T9Fdtwe2VSbD8YqYJ6N7gd5vR1nz3YWIQU26uV8> .env
-    echo GEMINI_API_KEY=AIzaSyAjzM_BmIXGqMVVSGb1Lcu9-kMNO_1FmN8>> .env
+    echo NEBIUS_API_KEY="API_key"> .env
+    echo GEMINI_API_KEY="API_key">> .env
     echo TEMPERATURE=1>> .env
     echo TOP_K=3>> .env
     echo TOP_P=0.85>> .env
